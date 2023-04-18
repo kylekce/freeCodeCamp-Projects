@@ -46,11 +46,6 @@ textarea {
   margin-top: 1vh;
 }
 
-submit {
-  margin: 2vh;
-  padding: 1vh;
-  background-color: rgba(15, 8, 64, 0.655);
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
+input[type="submit"] {
+  padding: 0.5em 10vw;
 }
