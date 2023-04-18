@@ -9,101 +9,99 @@
 </head>
 
 <body>
-    <div class="image-container">
-        <main>
-            <h1 id="title">Hololive EN Form</h1>
-            <p id="description">This survey is designed to gather feedback and opinions about Hololive English.
-                Your responses will help us improve our content and better serve our community.</p>
-        </main>
-        <form id="survey-form">
-            <label for="name-label">
-                What is your name?
-                <br>
-                <input id="name" type="text" placeholder="Full Name" required>
+    <main>
+        <h1 id="title">Hololive EN Form</h1>
+        <p id="description">This survey is designed to gather feedback and opinions about Hololive English.
+            Your responses will help us improve our content and better serve our community.</p>
+    </main>
+    <form id="survey-form">
+        <label for="name-label">
+            What is your name?
+            <br>
+            <input id="name" type="text" placeholder="Full Name" required>
+        </label>
+        <label for="email-label">
+            What is your email?
+            <br>
+            <input id="email" type="email" placeholder="Email Address" required>
+        </label>
+        <label for="number-label">
+            What is your age?
+            <br>
+            <input id="number" type="number" placeholder="Age" min=1 max=120 required>
+        </label>
+        <label for="dropdown-label">
+            How did you hear about Hololive English?
+            <br>
+            <select id="dropdown">
+                <option disabled selected>---</option>
+                <option value="student">YouTube</option>
+                <option value="job">Recommendation from a friend</option>
+                <option value="learner">Social media (Twitter, Facebook, etc.)</option>
+                <option value="preferNot">Twitch</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+        <label for="radio-label">
+            Which Hololive English talent do you watch the most?
+            <label>
+                <input type="radio" name="talent">Mori Calliope</input>
             </label>
-            <label for="email-label">
-                What is your email?
-                <br>
-                <input id="email" type="email" placeholder="Email Address" required>
+            <label>
+                <input type="radio" name="talent">Takanashi Kiara</input>
             </label>
-            <label for="number-label">
-                What is your age?
-                <br>
-                <input id="number" type="number" placeholder="Age" min=1 max=120 required>
+            <label>
+                <input type="radio" name="talent">Ninomae Ina'nis</input>
             </label>
-            <label for="dropdown-label">
-                How did you hear about Hololive English?
-                <br>
-                <select id="dropdown">
-                    <option disabled selected>---</option>
-                    <option value="student">YouTube</option>
-                    <option value="job">Recommendation from a friend</option>
-                    <option value="learner">Social media (Twitter, Facebook, etc.)</option>
-                    <option value="preferNot">Twitch</option>
-                    <option value="other">Other</option>
-                </select>
+            <label>
+                <input type="radio" name="talent">Gawr Gura</input>
             </label>
-            <label for="radio-label">
-                Which Hololive English talent do you watch the most?
-                <label>
-                    <input type="radio" name="talent">Mori Calliope</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Takanashi Kiara</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Ninomae Ina'nis</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Gawr Gura</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Amelia Watson</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">IRyS</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Tsukumo Sana</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Ceres Fauna</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Ouro Kronii</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Nanashi Mumei</input>
-                </label>
-                <label>
-                    <input type="radio" name="talent">Hakos Baelz</input>
-                </label>
+            <label>
+                <input type="radio" name="talent">Amelia Watson</input>
             </label>
-            <label for="checkbox-label">
-                Which type of content do you enjoy the most from Hololive English talents?
-                <label>
-                    <input type="checkbox" value="Gaming">Gaming streams</input>
-                </label>
-                <label>
-                    <input type="checkbox" value="Music">Music streams</input>
-                </label>
-                <label>
-                    <input type="checkbox" value="Chatting">Chatting streams</input>
-                </label>
-                <label>
-                    <input type="checkbox" value="Collaborations">Collaborations with other talents</input>
-                </label>
-                <label>
-                    <input type="checkbox" value="Other">Other</input>
-                </label>
+            <label>
+                <input type="radio" name="talent">IRyS</input>
             </label>
-            <label for="textarea-label">
-                What can Hololive English do to improve your viewing experience?
-                <br>
-                <textarea id="textarea" placeholder="Your answer" required></textarea>
-                <input type="submit" value="Submit">
-        </form>
-    </div>
+            <label>
+                <input type="radio" name="talent">Tsukumo Sana</input>
+            </label>
+            <label>
+                <input type="radio" name="talent">Ceres Fauna</input>
+            </label>
+            <label>
+                <input type="radio" name="talent">Ouro Kronii</input>
+            </label>
+            <label>
+                <input type="radio" name="talent">Nanashi Mumei</input>
+            </label>
+            <label>
+                <input type="radio" name="talent">Hakos Baelz</input>
+            </label>
+        </label>
+        <label for="checkbox-label">
+            Which type of content do you enjoy the most from Hololive English talents?
+            <label>
+                <input type="checkbox" value="Gaming">Gaming streams</input>
+            </label>
+            <label>
+                <input type="checkbox" value="Music">Music streams</input>
+            </label>
+            <label>
+                <input type="checkbox" value="Chatting">Chatting streams</input>
+            </label>
+            <label>
+                <input type="checkbox" value="Collaborations">Collaborations with other talents</input>
+            </label>
+            <label>
+                <input type="checkbox" value="Other">Other</input>
+            </label>
+        </label>
+        <label for="textarea-label">
+            What can Hololive English do to improve your viewing experience?
+            <br>
+            <textarea id="textarea" placeholder="Your answer" required></textarea>
+            <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
