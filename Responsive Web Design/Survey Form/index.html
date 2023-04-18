@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hololive English</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -13,9 +13,28 @@
     <p id="description">This survey is designed to gather feedback and opinions about Hololive English.
         Your responses will help us improve our content and better serve our community.</p>
     <form id="survey-form">
-        <input id="name" type="text" placeholder="Full Name" required>
-        <input id="name" type="text" placeholder="Email Address" required>
-        <input id="name" type="text" placeholder="Full Name" required>
+        <label for="name-label">
+            What is your name?
+            <input id="name" type="text" placeholder="Full Name" required>
+        </label>
+        <label for="email-label">
+            What is your email?
+            <input id="email" type="email" placeholder="Email Address" required>
+        </label>
+        <label for="number-label">
+            What is your age?
+            <input id="number" type="number" placeholder="Age" min=1 max=120 required>
+        </label>
+        <label>
+            How did you hear about Hololive English?
+            <select id="dropdown">
+                <option disabled selected>---</option>
+                <option value="student">YouTube</option>
+                <option value="job">Recommendation from a friend</option>
+                <option value="learner">Social media (Twitter, Facebook, etc.)</option>
+                <option value="preferNot">Twitch</option>
+                <option value="other">Other</option>
+        </label>
     </form>
 </body>
 
