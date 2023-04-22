@@ -18,9 +18,18 @@ body {
   margin: 0;
 }
 
+em {
+  font-size: 0.8em;
+}
+
 #image {
   max-width: 100%;
   height: auto;
+}
+
+#img-caption {
+  font-size: 0.8em;
+  color: rgb(168, 168, 168);
 }
 
 .img-div {
