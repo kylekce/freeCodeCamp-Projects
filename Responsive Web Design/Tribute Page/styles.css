@@ -38,8 +38,9 @@ em {
   padding: 0;
 }
 
-#tribute-info p {
-  padding: 0 100px;
+#tribute-info {
+  margin: 20px auto;
+  padding-inline: 12%;
 }
 
 footer {
@@ -49,6 +50,6 @@ footer {
 }
 
 footer p {
-  font-weight: 100;
+  font-weight: 600;
   margin: 0;
 }
