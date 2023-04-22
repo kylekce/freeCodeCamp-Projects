@@ -1,3 +1,13 @@
 #image {
-  width: 50%; /*change the percentage value as needed*/
+  max-width: 100%;
+  height: auto;
+}
+
+.img-div {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  font-size: 40px;
 }
