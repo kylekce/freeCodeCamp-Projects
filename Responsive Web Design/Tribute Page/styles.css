@@ -3,6 +3,10 @@ body {
   font-family: "Lucida Sans Unicode", sans-serif;
 }
 
+#main {
+  text-align: center;
+}
+
 #image {
   max-width: 100%;
   height: auto;
@@ -10,9 +14,5 @@ body {
 
 .img-div {
   background-color: #fff;
-  text-align: center;
-}
-
-#main {
   text-align: center;
 }
