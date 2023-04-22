@@ -20,6 +20,17 @@ main {
   text-align: center;
 }
 
+h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 2.5em;
+  margin: 2vh;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Gill Sans MT", sans-serif;
+}
+
 label {
   display: block;
   margin: 2vh;
@@ -27,7 +38,7 @@ label {
 
 form {
   margin: 0 30vw 5vh 30vw;
-  padding: 6%;
+  padding: 2%;
   background-color: rgba(15, 8, 64, 0.655);
   border-radius: 15px;
 }
@@ -42,10 +53,22 @@ select {
 
 textarea {
   width: 100%;
+  max-width: 100%;
   height: 5em;
   margin-top: 1vh;
 }
 
 input[type="submit"] {
-  padding: 0.5em 10vw;
+  display: block;
+  padding: 0.8em;
+  width: 100%;
+  margin: 2vh auto;
+  background-color: rgba(83, 198, 255, 0.982);
+  border: none;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  color: white;
+  background-color: rgba(2, 255, 141, 0.8);
 }
