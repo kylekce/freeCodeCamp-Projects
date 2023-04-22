@@ -1,6 +1,13 @@
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
 body {
   background-color: #5651514e;
   font-family: "Lucida Sans Unicode", sans-serif;
+  padding-top: 10px;
+  margin: 20px auto;
+  width: 70%;
 }
 
 #main {
@@ -16,4 +23,18 @@ body {
   background-color: #fff;
   text-align: center;
   padding: 0 180px;
+}
+
+#tribute-info p {
+  padding: 0 100px;
+}
+
+footer {
+  background-color: #5651514e;
+  text-align: center;
+  padding: 0 180px;
+}
+
+footer p {
+  margin: 0;
 }
