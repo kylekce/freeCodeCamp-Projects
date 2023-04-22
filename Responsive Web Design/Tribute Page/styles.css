@@ -9,14 +9,10 @@ body {
 }
 
 .img-div {
-  text-align: center;
-}
-
-#main {
   background-color: #fff;
   text-align: center;
 }
 
-#img-caption {
-  margin-top: 0;
+#main {
+  text-align: center;
 }
