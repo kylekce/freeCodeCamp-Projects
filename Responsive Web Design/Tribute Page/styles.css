@@ -34,7 +34,6 @@ em {
 
 .img-div {
   background-color: #fff;
-  text-align: center;
   padding: 0;
 }
 
@@ -43,13 +42,12 @@ em {
   padding-inline: 12%;
 }
 
-footer {
+.footer {
   background-color: #5651514e;
-  text-align: center;
   padding: 10px;
 }
 
-footer p {
+.footer p {
   font-weight: 600;
   margin: 0;
 }
