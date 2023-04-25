@@ -7,15 +7,22 @@ header {
 }
 
 #navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 20vw;
+  margin: 0;
+  padding: 0;
+  width: 200px;
   height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  background-color: antiquewhite;
 }
 
 #navbar header {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+main {
+  position: fixed;
+  left: 25vw;
 }
