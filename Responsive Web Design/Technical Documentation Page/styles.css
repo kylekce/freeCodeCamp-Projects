@@ -33,11 +33,13 @@ header {
 }
 
 #navbar li {
+  padding: 20px;
   list-style-type: none;
 }
 
 #navbar a {
   text-decoration: none;
+  padding: 20px;
   color: rgb(123, 123, 123);
 }
 
