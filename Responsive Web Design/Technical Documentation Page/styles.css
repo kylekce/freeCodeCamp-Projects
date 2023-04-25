@@ -2,6 +2,11 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   font-size: 1.5em;
 }
@@ -12,8 +17,18 @@ header {
   width: 200px;
   height: 100vh;
   position: fixed;
-  overflow: hidden;
   background-color: antiquewhite;
+  padding-block: 20px;
+}
+
+#navbar li {
+  list-style-type: none;
+  display: block;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
 }
 
 #navbar header {
@@ -23,6 +38,7 @@ header {
 }
 
 main {
-  position: fixed;
-  left: 25vw;
+  position: absolute;
+  left: 200px;
+  margin-left: 20px;
 }
