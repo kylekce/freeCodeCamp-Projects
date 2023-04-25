@@ -23,13 +23,18 @@ header {
   padding-block: 20px;
 }
 
-#navbar ul {
-  padding: 0;
+#navbar a {
+  text-decoration: none;
+  color: rgb(123, 123, 123);
+}
+
+#navbar header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 #navbar li {
   list-style-type: none;
-  padding: 20px 10px;
 }
 
 #navbar li:hover {
@@ -38,17 +43,6 @@ header {
 
 #navbar li:hover a {
   color: rgb(37, 36, 38);
-}
-
-#navbar a {
-  text-decoration: none;
-  padding: 20px 20px;
-  color: rgb(123, 123, 123);
-}
-
-#navbar header {
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 main {
