@@ -29,11 +29,7 @@ header {
 }
 
 #navbar li {
-  display: block;
-  padding: 10px;
-  min-height: 40px;
-  display: flex;
-  align-items: center;
+  padding: 20px 10px;
 }
 
 #navbar li:hover {
@@ -46,6 +42,7 @@ header {
 
 #navbar a {
   text-decoration: none;
+  padding: 20px 10px;
   color: rgb(123, 123, 123);
 }
 
@@ -96,7 +93,6 @@ section:not(:first-child) {
 
   #navbar li {
     display: block;
-    padding: 0;
   }
 
   main {
