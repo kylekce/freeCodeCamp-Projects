@@ -61,6 +61,21 @@
                 <li>char</li>
                 <li>boolean</li>
             </ul>
+            <p>Here's an example code snippet in Java that demonstrates primitive data types:</p>
+            <code>
+                public class PrimitiveDataTypesExample {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;byte b = 100;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;short s = 1000;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; int i = 100000;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;long l = 1000000000;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;float f = 1.2345f;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;double d = 1.23456789;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;char c = 'a';<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;boolean b = true;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            }
+            </code>
             <p>
                 Java programs are executed by the Java Virtual Machine (JVM), which provides a secure and portable
                 runtime environment.
@@ -81,29 +96,102 @@
             </p>
             <code>
                 class Animal {<br>
-                &nbsp;public void eat() {<br>
-                        System.out.println("I am eating");<br>
-                    }<br>
-                }
+                    &nbsp;&nbsp;&nbsp;&nbsp;public void eat() {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("I am eating");<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                }<br>
                 <br>
                 class Dog extends Animal {<br>
-                    public void bark() {<br>
-                        System.out.println("Woof!");<br>
-                    }<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;public void bark() {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Woof!");<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;}<br>
                 }<br>
                 <br>
                 class Cat extends Animal {<br>
-                    public void meow() {<br>
-                        System.out.println("Meow!");<br>
-                    }<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;public void meow() {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Meow!");<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}<br>
                 }                
             </code>
+            <p>
+                In this example, the Animal class defines a single method eat(),
+                while the Dog and Cat classes inherit from Animal and define their own methods bark() and meow().
+            </p>
         </section>
-        <section id="java_standard" class="main-section">
-            <header>Java Standard Library</header>
+        <section id="java_libraries" class="main-section">
+            <header>Java Libraries and Frameworks</header>
+            <p>
+                Java has a rich ecosystem of libraries and frameworks that make it easy to develop complex applications
+                quickly.
+                Some popular Java libraries and frameworks include:
+            </p>
+            <ul>
+                <li>Spring Framework: A popular framework for building enterprise applications, which provides features
+                    such as dependency injection, AOP, and web MVC.</li>
+                <li>Hibernate: A library for working with databases in Java, which provides an object-relational mapping
+                    (ORM) layer and other features such as caching and lazy loading.</li>
+                <li>Apache Commons: A collection of reusable Java components, such as utilities for working with
+                    strings, collections, and IO.</li>
+                <li>JUnit: A popular testing framework for Java, which provides support for writing and running unit
+                    tests.</li>
+            </ul>
+            <p>
+                Here's an example of how to use the Apache Commons IO library to read a file into a String in Java:
+            </p>
+            <code>
+                import org.apache.commons.io.FileUtils;
+
+//...
+
+try {
+    String fileContent = FileUtils.readFileToString(new File("example.txt"), "UTF-8");
+    System.out.println(fileContent);
+} catch (IOException e) {
+    e.printStackTrace();
+}
+            </code>
         </section>
         <section id="java_development" class="main-section">
             <header>Java Development Tools</header>
+            <p>
+                Eclipse and IntelliJ IDEA are integrated development environments (IDEs) that provide a complete
+                development environment for Java.
+                They include features such as code completion, debugging, and refactoring. Apache Maven and Gradle are
+                build tools that automate
+                the building and deployment of Java applications. They can manage dependencies, run tests, and create
+                executable JAR files.
+            </p>
+        </section>
+        <section>
+            <header>Java Best Practices</header>
+            <p>
+                Here are some best practices to keep in mind when writing Java code:
+            </p>
+            <ul>
+                <li>Use meaningful and descriptive names for variables, methods, and classes</li>
+                <li>Follow a consistent naming convention (e.g. camelCase or snake_case)</li>
+                <li>Use proper indentation and formatting for readability</li>
+                <li>Limit the scope of variables and methods to where they are needed</li>
+                <li>Avoid using magic numbers and instead use constants or enums for clarity</li>
+                <li>Use exception handling to gracefully handle errors and failures</li>
+                <li>Avoid unnecessary or excessive comments, and instead write self-explanatory code</li>
+                <li>Write unit tests to ensure the functionality of your code</li>
+                <li>Regularly review and refactor your code to improve readability, maintainability, and efficiency.
+                </li>
+            </ul>
+            <p>
+                By following these best practices, you can write clean, efficient, and maintainable code in Java.
+            </p>
+        </section>
+        <section>
+            <header>Java Resources</header>
+            <ul>
+                <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Download
+                        Java</a></li>
+                <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Java Tutorials</a></li>
+                <li><a href="https://www.baeldung.com/java" target="_blank">Java Tutorials</a></li>
+                <li><a href="https://www.javatpoint.com/java-tutorial" target="_blank">Java Tutorials</a></li>
+            </ul>
         </section>
     </main>
 </body>
