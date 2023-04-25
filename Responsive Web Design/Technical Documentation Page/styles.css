@@ -21,14 +21,16 @@ header {
   padding-block: 20px;
 }
 
-#navbar li {
+#navbar ul {
+  padding-inline: 20px;
   list-style-type: none;
   display: block;
   justify-content: flex-end;
 }
 
-a {
+#navbar a {
   text-decoration: none;
+  color: rgb(69, 69, 69);
 }
 
 #navbar header {
