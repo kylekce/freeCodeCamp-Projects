@@ -80,7 +80,7 @@ section:not(:first-child) {
 @media (max-width: 768px) {
   #navbar {
     width: 100%;
-    height: 150px;
+    height: 200px;
     position: fixed;
     background-color: rgb(25, 23, 26);
     z-index: 1;
@@ -88,13 +88,19 @@ section:not(:first-child) {
 
   #navbar ul {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    overflow: auto;
+    height: 150px;
+  }
+
+  #navbar li {
+    display: block;
+    padding: 0;
   }
 
   main {
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 0;
   }
 }
