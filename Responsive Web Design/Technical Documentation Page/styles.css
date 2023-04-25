@@ -38,6 +38,8 @@ header {
 #navbar a {
   text-decoration: none;
   color: rgb(123, 123, 123);
+  display: flex;
+  align-items: center;
 }
 
 #navbar header {
@@ -51,10 +53,18 @@ main {
   margin: 40px;
 }
 
+main header {
+  margin-block: 20px;
+}
+
+main p {
+  margin-inline: 20px;
+}
+
 #code {
   background-color: rgb(23, 22, 22);
   padding: 20px;
-  margin-inline: 3em;
+  margin-inline: 4em;
 }
 
 section:not(:first-child) {
