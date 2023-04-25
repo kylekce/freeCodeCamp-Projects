@@ -28,13 +28,17 @@ header {
   margin-bottom: 40px;
 }
 
-#navbar a {
-  text-decoration: none;
-  color: rgb(123, 123, 123);
+#navbar ul {
+  padding: 0;
 }
 
 #navbar li {
   list-style-type: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(123, 123, 123);
 }
 
 #navbar li:hover {
