@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <nav>
+
+    </nav>
     <main id="main-doc">
         <section id="introduction" class="main-section">
             <header>Introduction to Java</header>
@@ -139,16 +142,16 @@
                 Here's an example of how to use the Apache Commons IO library to read a file into a String in Java:
             </p>
             <code>
-                import org.apache.commons.io.FileUtils;
-
-//...
-
-try {
-    String fileContent = FileUtils.readFileToString(new File("example.txt"), "UTF-8");
-    System.out.println(fileContent);
-} catch (IOException e) {
-    e.printStackTrace();
-}
+                import org.apache.commons.io.FileUtils;<br>
+                <br>
+                //...<br>
+                <br>
+                try {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;String fileContent = FileUtils.readFileToString(new File("example.txt"), "UTF-8");<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;System.out.println(fileContent);<br>
+                } catch (IOException e) {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace();<br>
+                }
             </code>
         </section>
         <section id="java_development" class="main-section">
@@ -179,6 +182,24 @@ try {
                 <li>Regularly review and refactor your code to improve readability, maintainability, and efficiency.
                 </li>
             </ul>
+            <p>
+                Here's an example of using the try-with-resources statement in Java, which is a best practice for
+                working with resources
+                that need to be closed after use (such as file streams or database connections):
+            </p>
+            <code>
+                try (FileWriter fileWriter = new FileWriter("example.txt")) {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;fileWriter.write("Hello, world!");<br>
+                } catch (IOException e) {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;System.err.println("Error writing to file: " + e.getMessage());<br>
+                }
+            </code>
+            <p>
+                In this example, the FileWriter resource is opened inside the try statement and closed automatically at
+                the end of the block, even if an exception is thrown.
+                This eliminates the need for a finally block to close the resource manually, which can help make the
+                code cleaner and less error-prone.
+            </p>
             <p>
                 By following these best practices, you can write clean, efficient, and maintainable code in Java.
             </p>
