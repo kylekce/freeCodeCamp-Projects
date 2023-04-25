@@ -204,13 +204,15 @@
                 working with resources
                 that need to be closed after use (such as file streams or database connections):
             </p>
-            <code>
-                try (FileWriter fileWriter = new FileWriter("example.txt")) {<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;fileWriter.write("Hello, world!");<br>
-                } catch (IOException e) {<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;System.err.println("Error writing to file: " + e.getMessage());<br>
-                }
-            </code>
+            <div id="code">
+                <code>
+                    try (FileWriter fileWriter = new FileWriter("example.txt")) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;fileWriter.write("Hello, world!");<br>
+                    } catch (IOException e) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;System.err.println("Error writing to file: " + e.getMessage());<br>
+                    }
+                </code>
+            </div>
             <p>
                 In this example, the FileWriter resource is opened inside the try statement and closed automatically at
                 the end of the block, even if an exception is thrown.
