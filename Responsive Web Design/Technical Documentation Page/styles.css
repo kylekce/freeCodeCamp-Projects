@@ -29,6 +29,7 @@ header {
 }
 
 #navbar li {
+  display: block;
   padding: 10px;
   min-height: 40px;
   display: flex;
