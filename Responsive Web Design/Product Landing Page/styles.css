@@ -18,12 +18,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--background-color);
+  background-color: gray;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-  margin: 20px;
-  margin-right: 0;
+  margin-left: 20px;
   width: 100px;
 }
 
