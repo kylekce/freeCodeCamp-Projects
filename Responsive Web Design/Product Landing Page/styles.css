@@ -220,9 +220,13 @@ footer {
 
 @media (max-width: 915px) {
   #About {
-    grid-template-columns: 1fr;
     grid-template-rows: 100px 1fr 1fr;
     padding: 2rem;
+  }
+
+  #About p,
+  h2 {
+    grid-column: 1 / 4;
   }
 
   #About img {
@@ -264,7 +268,16 @@ footer {
 }
 
 @media (max-width: 700px) {
+  #header {
+    justify-content: center;
+    background-color: var(--background-color);
+  }
+
   #nav-bar {
     display: none;
+  }
+
+  #About {
+    grid-template-rows: 180px 1fr 1fr;
   }
 }
