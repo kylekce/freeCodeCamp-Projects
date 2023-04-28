@@ -27,10 +27,10 @@ header {
   width: 100px;
 }
 
-.header h1 {
+#header h1 {
   color: white;
   font-size: 2rem;
-  margin-left: 20px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #nav-bar {
