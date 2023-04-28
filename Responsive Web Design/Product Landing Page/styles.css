@@ -278,6 +278,6 @@ footer {
   }
 
   #About {
-    grid-template-rows: 180px 1fr 1fr;
+    grid-template-rows: 210px 1fr 1fr;
   }
 }
