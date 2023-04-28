@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
 :root {
   --background-color: rgb(0, 0, 0);
   --nav-color: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 10%,
     rgba(0, 0, 0, 0.5) 50%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 90%
   );
   --link-color: rgb(92, 93, 101);
   --hover-color: rgb(235, 89, 89);
