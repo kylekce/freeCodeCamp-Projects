@@ -21,13 +21,13 @@ header {
   background-color: var(--background-color);
 }
 
-#header-img {
+.logo img {
   margin: 20px;
   margin-right: 0;
   width: 100px;
 }
 
-#header h1 {
+.logo h1 {
   color: white;
   font-size: 2rem;
   font-family: "Trebuchet MS", sans-serif;
