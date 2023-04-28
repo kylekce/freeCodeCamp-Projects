@@ -42,6 +42,7 @@ header {
 }
 
 #nav-bar ul {
+  padding: 0;
   display: flex;
   gap: 2rem;
 }
@@ -49,9 +50,6 @@ header {
 #nav-bar li {
   background-color: aliceblue;
   list-style-type: none;
-
-  padding: 20px 0;
-  padding-right: 20px;
 }
 
 #nav-bar li:hover {
