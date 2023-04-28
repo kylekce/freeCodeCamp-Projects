@@ -27,6 +27,8 @@ header {
 }
 
 .logo img {
+  height: 1rem;
+  width: auto;
   margin-left: 20px;
   width: 100px;
 }
@@ -35,7 +37,6 @@ header {
   color: white;
   font-size: 2rem;
   font-family: "Trebuchet MS", sans-serif;
-  font-weight: 700;
 }
 
 #nav-bar {
