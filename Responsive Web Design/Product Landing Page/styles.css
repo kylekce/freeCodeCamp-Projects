@@ -42,12 +42,7 @@ header {
 }
 
 #nav-bar ul {
-  display: flex;
-  justify-content: flex-end;
-  height: 100%;
-  width: 70%;
-  margin-right: 60px;
-  gap: 3rem;
+  background-color: aliceblue;
   list-style-type: none;
 }
 
