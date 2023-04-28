@@ -264,11 +264,11 @@ footer {
 }
 
 @media (max-width: 700px) {
-  #nav-bar {
-    display: none;
-  }
-
   #header {
     justify-content: center;
+  }
+
+  #nav-bar {
+    display: none;
   }
 }
