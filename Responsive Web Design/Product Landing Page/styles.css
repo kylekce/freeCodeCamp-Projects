@@ -90,6 +90,7 @@ main img {
     transparent 50%,
     rgba(61, 89, 106, 0.592) 100%
   );
+  margin-top: -10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 1fr;
