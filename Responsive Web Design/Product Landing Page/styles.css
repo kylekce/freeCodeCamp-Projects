@@ -12,6 +12,7 @@
   );
   --link-color: rgb(92, 93, 101);
   --hover-color: rgb(235, 89, 89);
+  --footer-color: rgba(235, 89, 89, 0.727);
   --white-color: rgb(255, 255, 255);
 
   /* FONT */
@@ -56,7 +57,7 @@ header {
   width: 5rem;
 }
 
-.logo h1 {
+h1 {
   color: var(--white-color);
   font-size: 2.5rem;
   font-family: var(--logo-font);
@@ -85,10 +86,8 @@ header {
 }
 
 #nav-bar li:hover a {
-  transform: scale(1);
+  transform: scale(1.3);
   color: var(--white-color);
-  font-family: var(--logo-font);
-  font-weight: 100;
 }
 
 main img {
@@ -154,4 +153,15 @@ main img {
 #Armaments p {
   text-align: justify;
   padding-inline-start: 2rem;
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding: 5rem;
+  margin-bottom: 1.2rem;
+}
+
+span {
+  width: 100%;
+  text-align: center;
 }
