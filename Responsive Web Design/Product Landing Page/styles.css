@@ -31,6 +31,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--nav-color);
+  padding-inline: 3rem;
 }
 
 .logo {
@@ -41,7 +42,6 @@ header {
 .logo img {
   height: auto;
   width: 5rem;
-  margin-left: 20px;
 }
 
 .logo h1 {
@@ -52,7 +52,6 @@ header {
 
 #nav-bar ul {
   display: flex;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -86,9 +85,9 @@ main img {
 #About {
   background: linear-gradient(
     90deg,
-    rgb(82, 52, 52) 0%,
+    rgba(255, 117, 117, 0.108) 0%,
     transparent 50%,
-    rgba(61, 89, 106, 0.592) 100%
+    rgba(117, 202, 255, 0.108) 100%
   );
   margin-top: -10px;
   display: grid;
@@ -96,7 +95,7 @@ main img {
   grid-template-rows: 100px 1fr;
   padding-inline: 1rem;
   column-gap: 50px;
-  padding: 50px;
+  padding: 6rem;
 }
 
 #About h2 {
@@ -122,4 +121,8 @@ main img {
   grid-column: 3 / 4;
   grid-row: 1 / 3;
   align-self: center;
+}
+
+#Armaments {
+  padding: 6rem;
 }
