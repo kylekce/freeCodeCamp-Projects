@@ -1,6 +1,7 @@
 :root {
-  --background-color: rgb(45, 43, 54);
-  --link-color: rgba(60, 51, 51, 0.355);
+  --background-color: rgb(35, 31, 51);
+  --link-color: rgb(92, 93, 101);
+  --hover-color: rgb(235, 89, 89);
 }
 
 *,
@@ -19,7 +20,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
+  background-color: var(--background-color);
+  margin-top: 10px;
 }
 
 .logo {
@@ -39,15 +41,21 @@ header {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-#nav-bar {
+#nav-bar ul {
   display: flex;
   justify-content: flex-end;
+  height: 100%;
   width: 70%;
   margin-right: 60px;
-  gap: 2rem;
+  gap: 3rem;
+  list-style-type: none;
 }
 
-#navbar a {
+#nav-bar a:hover {
+  background-color: var(--hover-color);
+}
+
+#nav-bar a {
   text-decoration: none;
   color: var(--link-color);
 }
