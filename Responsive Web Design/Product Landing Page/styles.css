@@ -41,22 +41,26 @@ header {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-#nav-bar ul {
+#navbar ul {
   padding: 0;
-  display: flex;
-  gap: 2rem;
 }
 
-#nav-bar li {
-  background-color: aliceblue;
+#navbar li {
   list-style-type: none;
 }
 
-#nav-bar li:hover {
-  background-color: var(--hover-color);
+#navbar a {
+  text-decoration: none;
+  padding-block: 20px;
+  padding-left: 20px;
+  display: block;
+  color: rgb(123, 123, 123);
 }
 
-#nav-bar a {
-  text-decoration: none;
-  color: var(--link-color);
+#navbar li:hover {
+  background-color: rgb(123, 123, 123);
+}
+
+#navbar li:hover a {
+  color: rgb(37, 36, 38);
 }
