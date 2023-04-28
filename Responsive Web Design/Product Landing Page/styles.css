@@ -162,4 +162,9 @@ footer {
 }
 
 .author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  opacity: 0.5;
 }
