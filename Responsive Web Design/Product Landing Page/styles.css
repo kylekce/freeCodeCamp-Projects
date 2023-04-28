@@ -1,7 +1,42 @@
+:root {
+  --background-color: rgb(45, 43, 54);
+}
+
 *,
 ::before,
 ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+#header-img {
+  margin: 20px;
+  margin-right: 0;
+  width: 100px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin-right: 60px;
+  gap: 2rem;
 }
