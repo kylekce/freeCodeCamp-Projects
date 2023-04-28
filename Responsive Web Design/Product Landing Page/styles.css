@@ -267,4 +267,8 @@ footer {
   #nav-bar {
     display: none;
   }
+
+  #header {
+    justify-content: center;
+  }
 }
