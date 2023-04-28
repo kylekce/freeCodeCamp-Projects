@@ -219,4 +219,42 @@ footer {
 }
 
 @media (max-width: 915px) {
+  #About {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    padding: 2rem;
+    justify-items: center;
+  }
+
+  #About img {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
+
+  #Armaments {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Armaments ul {
+    width: 100%;
+  }
+
+  #Armaments h3 {
+    text-align: center;
+  }
+
+  #Armaments p {
+    padding-inline-start: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
 }
