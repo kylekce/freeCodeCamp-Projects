@@ -65,7 +65,6 @@ header {
 
 #nav-bar ul {
   display: flex;
-  overflow: hidden;
 }
 
 #nav-bar li {
@@ -86,8 +85,10 @@ header {
 }
 
 #nav-bar li:hover a {
-  transform: scale(1.2);
+  transform: scale(1);
   color: var(--white-color);
+  font-family: var(--logo-font);
+  font-weight: 100;
 }
 
 main img {
@@ -114,7 +115,7 @@ main img {
 
 #About h2 {
   color: var(--hover-color);
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-family: var(--header-font1);
   grid-column: 1 / 3;
   grid-row: 1 / 2;
