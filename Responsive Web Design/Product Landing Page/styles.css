@@ -41,15 +41,15 @@ header {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-#navbar ul {
+#nav-bar ul {
   padding: 0;
 }
 
-#navbar li {
+#nav-bar li {
   list-style-type: none;
 }
 
-#navbar a {
+#nav-bar a {
   text-decoration: none;
   padding-block: 20px;
   padding-left: 20px;
@@ -57,10 +57,10 @@ header {
   color: rgb(123, 123, 123);
 }
 
-#navbar li:hover {
+#nav-bar li:hover {
   background-color: rgb(123, 123, 123);
 }
 
-#navbar li:hover a {
+#nav-bar li:hover a {
   color: rgb(37, 36, 38);
 }
