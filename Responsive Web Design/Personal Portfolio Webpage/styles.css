@@ -1,8 +1,10 @@
 :root {
     --background-color1: #37343d;
     --background-color2: #bc4749;
+    --background-color3: #1a1714;
     --text-color1: #f5f5f5;
     --text-color2: #181616;
+    --text-color3: #e6e6e6;
     --hover-color: #f2e8cf;
     --link-color: #a7c957;
 
@@ -78,19 +80,28 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-inline: 5rem;
+    padding: 2rem 5rem;
+    background-color: var(--background-color3);
 }
 
 .project-tile {
-    background-color: #221f27;
-    height: 30rem;
+    background-color: var(--background-color2);
+    height: 18rem;
     width: 100%;
-    display: inline;
+    display: block;
     text-align: center;
     border-radius: 0.6rem;
-    padding-block: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    text-decoration: none;
+    color: var(--text-color3);
 }
 
 .project-tile img {
     width: 30vw;
+}
+
+.project-tile:hover {
+    background-color: var(--hover-color);
+    color: var(--text-color2);
 }
