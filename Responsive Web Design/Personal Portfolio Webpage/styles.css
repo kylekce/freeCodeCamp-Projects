@@ -25,3 +25,21 @@ body {
     background-color: var(--background-color2);
     z-index: 1;
 }
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    list-style: none;
+    padding-inline-end: 1rem;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: var(--text-color1);
+    padding-block: 1rem;
+}
+
+#navbar li:hover {
+    background-color: red;
+}
