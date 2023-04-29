@@ -77,27 +77,31 @@ body {
 /* PROJECTS */
 #projects {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 2rem;
     padding: 2rem 5rem;
     background-color: var(--background-color3);
 }
 
+.project-header {
+    position: relative;
+    left: -10%;
+}
+
 .project-tile {
     background-color: var(--background-color2);
-    min-height: 90%;
-    width: 100%;
-    display: block;
+    height: 300px;
+    width: 15em;
     text-align: center;
     border-radius: 0.6rem;
-    padding-block: 1rem;
+    padding: 1rem 1rem;
     text-decoration: none;
     color: var(--text-color3);
 }
 
 .project-tile img {
-    width: 30vw;
+    width: 13em;
 }
 
 .project-tile:hover {
