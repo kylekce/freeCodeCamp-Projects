@@ -86,9 +86,8 @@ body {
 
 .project-tile {
     background-color: var(--background-color2);
-    height: auto;
-    width: 100%;
     min-height: 90%;
+    width: 100%;
     display: block;
     text-align: center;
     border-radius: 0.6rem;
