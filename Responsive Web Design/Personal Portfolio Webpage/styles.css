@@ -77,7 +77,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-inline: 1rem;
+    gap: 2rem;
+    margin-inline: 5rem;
 }
 
 .project-tile {
@@ -86,6 +87,8 @@ body {
     width: 100%;
     display: inline;
     text-align: center;
+    border-radius: 0.6rem;
+    padding-block: 1rem;
 }
 
 .project-tile img {
