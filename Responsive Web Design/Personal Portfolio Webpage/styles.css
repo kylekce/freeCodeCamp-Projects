@@ -86,13 +86,13 @@ body {
 
 .project-tile {
     background-color: var(--background-color2);
-    height: 18rem;
+    height: auto;
     width: 100%;
+    min-height: 90%;
     display: block;
     text-align: center;
     border-radius: 0.6rem;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-block: 1rem;
     text-decoration: none;
     color: var(--text-color3);
 }
