@@ -1,7 +1,27 @@
+:root {
+    --background-color1: #37343d;
+    --background-color2: #c25353;
+    --text-color1: #f5f5f5;
+}
+
 *,
 ::after,
 ::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-color2);
+    z-index: 1;
 }
