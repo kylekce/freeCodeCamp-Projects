@@ -110,7 +110,7 @@ body {
     font-family: var(--font-family1);
     font-size: 1.2rem;
     position: absolute;
-    bottom: 5px;
+    bottom: -16em;
 }
 
 .project-tile:hover {
