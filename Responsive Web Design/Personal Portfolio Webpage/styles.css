@@ -122,11 +122,32 @@ body {
 #contact {
     background-color: whitesmoke;
     display: flex;
-    justify-content: space-evenly;
-    padding: 2rem 5rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 5rem;
+}
+
+#contact aside {
+    font-family: var(--font-family1);
+    font-size: 0.8rem;
+    color: rgb(54, 54, 54);
+    position: absolute;
+    left: 2rem;
 }
 
 #contact i {
     font-size: 2rem;
     color: var(--background-color2);
+}
+
+#contact i:hover {
+    color: var(--hover-color);
+}
+
+@media (max-width: 800px) {
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
 }
