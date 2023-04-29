@@ -73,3 +73,18 @@ body {
 }
 
 /* PROJECTS */
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.project-tile {
+    background-color: burlywood;
+    height: 30rem;
+}
+
+.project-tile img {
+    width: 30vw;
+}
