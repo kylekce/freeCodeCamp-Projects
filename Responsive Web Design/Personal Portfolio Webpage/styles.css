@@ -46,13 +46,15 @@ body {
     padding-inline: 2rem;
     font-family: var(--font-family2);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 #navbar li:hover a {
     background-color: var(--hover-color);
     color: var(--text-color2);
 }
+
+/*  */
 
 #welcome-section {
     height: 100vh;
@@ -67,3 +69,5 @@ body {
 #welcome-section span {
     color: var(--background-color2);
 }
+
+/* PROJECTS */
