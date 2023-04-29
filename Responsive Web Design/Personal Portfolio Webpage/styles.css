@@ -110,10 +110,21 @@ body {
     font-family: var(--font-family1);
     font-size: 1.2rem;
     position: absolute;
-    bottom: -16em;
+    bottom: -16.5em;
 }
 
 .project-tile:hover {
     background-color: var(--hover-color);
     color: var(--text-color2);
+}
+
+/* CONTACTS */
+#contact {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    background-color: var(--background-color3);
 }
