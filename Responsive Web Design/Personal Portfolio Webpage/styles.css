@@ -107,6 +107,11 @@ body {
 }
 
 .project-tile h2 {
+    font-family: var(--font-family1);
+    font-size: 1.2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .project-tile:hover {
