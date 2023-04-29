@@ -111,7 +111,7 @@ body {
     font-size: 1.2rem;
     position: absolute;
     bottom: -16em;
-    left: 2em;
+    right: 3em;
     padding: 1rem 4rem;
     background-color: var(--background-color3);
 }
