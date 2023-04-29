@@ -77,15 +77,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     margin-inline: 5rem;
 }
 
 .project-tile {
-    background-color: burlywood;
+    background-color: #221f27;
     height: 30rem;
     width: 100%;
-    padding-inline: 10%;
+    display: inline;
+    text-align: center;
 }
 
 .project-tile img {
