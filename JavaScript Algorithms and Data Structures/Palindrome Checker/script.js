@@ -12,10 +12,14 @@ checkButton.addEventListener("click", () => {
         const textNode = document.createTextNode(`${text} is a palindrome`);
         result.textContent = "";
         result.appendChild(textNode);
+
+        result.style.color = "green";
     } else {
         const textNode = document.createTextNode(`${text} is not a palindrome`);
         result.textContent = "";
         result.appendChild(textNode);
+
+        result.style.color = "red";
     }
 });
 
