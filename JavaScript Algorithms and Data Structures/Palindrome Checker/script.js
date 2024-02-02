@@ -3,9 +3,9 @@ const checkButton = document.getElementById("check-btn");
 const result = document.getElementById("result");
 
 checkButton.addEventListener("click", () => {
-    const text = textInput?.value;
+    const text = textInput?.value || null;
 
-    if (text === null || text === "") {
+    if (text === null) {
         alert("Please input a value");
         return;
     } else if (isPalindrome(text)) {
