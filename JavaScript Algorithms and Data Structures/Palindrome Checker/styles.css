@@ -1,4 +1,5 @@
 body {
+    font-family: "roboto", sans-serif;
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -43,4 +44,12 @@ button:hover {
     color: #fff;
     font-size: 24px;
     margin-top: 20px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }
