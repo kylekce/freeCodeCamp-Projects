@@ -5,11 +5,11 @@ const result = document.getElementById("result");
 checkButton.addEventListener("click", () => {
     const text = textInput?.value;
 
-    if (text === "") {
+    if (text === null || text === "") {
         alert("Please input a value");
         return;
     } else if (isPalindrome(text)) {
-        alert("The text is a palindrome");
+        result.textContent = `${text} is a palindrome`;
     }
 });
 
