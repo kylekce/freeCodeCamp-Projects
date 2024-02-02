@@ -13,7 +13,7 @@ checkButton.addEventListener("click", () => {
         result.appendChild(textNode);
     } else {
         const textNode = document.createTextNode(`${text} is not a palindrome`);
-        result.appendChild(textNode);
+        result.replaceChild(textNode);
     }
 });
 
