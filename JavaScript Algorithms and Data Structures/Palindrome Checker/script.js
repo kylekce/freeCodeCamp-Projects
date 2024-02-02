@@ -10,12 +10,15 @@ checkButton.addEventListener("click", () => {
         return;
     } else if (isPalindrome(text)) {
         result.textContent = `${text} is a palindrome`;
+        alert(`${text} is a palindrome`);
     }
 });
 
 function isPalindrome(text) {
     const cleanText = text.toLowerCase().replace(/[\W_]/g, "");
     const reversedText = cleanText.split("").reverse().join("");
+
+    console.log(cleanText, reversedText);
 
     return cleanText === reversedText;
 }
