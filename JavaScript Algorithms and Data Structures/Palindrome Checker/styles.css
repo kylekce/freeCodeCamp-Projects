@@ -1,0 +1,26 @@
+/* FILEPATH: /c:/Users/Kyle/Documents/VSCodeProjects/freeCodeCamp-Projects/JavaScript Algorithms and Data Structures/Palindrome Checker/styles.css */
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#result {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+}
