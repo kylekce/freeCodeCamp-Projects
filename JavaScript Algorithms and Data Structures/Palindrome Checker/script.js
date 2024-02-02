@@ -9,9 +9,11 @@ checkButton.addEventListener("click", () => {
         alert("Please input a value");
         return;
     } else if (isPalindrome(text)) {
-        result.textContent = `${text} is a palindrome`;
+        const textNode = document.createTextNode(`${text} is a palindrome`);
+        result.appendChild(textNode);
     } else {
-        result.textContent = `${text} is not a palindrome`;
+        const textNode = document.createTextNode(`${text} is not a palindrome`);
+        result.appendChild(textNode);
     }
 });
 
