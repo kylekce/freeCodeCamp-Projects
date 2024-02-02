@@ -7,6 +7,12 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
 input {
     width: 300px;
     height: 40px;
