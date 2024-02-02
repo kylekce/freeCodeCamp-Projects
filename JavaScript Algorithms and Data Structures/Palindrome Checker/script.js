@@ -10,6 +10,8 @@ checkButton.addEventListener("click", () => {
         return;
     } else if (isPalindrome(text)) {
         result.textContent = `${text} is a palindrome`;
+    } else {
+        result.textContent = `${text} is not a palindrome`;
     }
 });
 
